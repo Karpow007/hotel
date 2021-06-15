@@ -1,0 +1,326 @@
+ body {
+   margin: 0;
+   font-family: 'Open Sans', sans-serif;
+
+ }
+ *,
+ *:before,
+ *:after {
+   box-sizing: border-box;
+ }
+
+  .upperhead {
+    padding-top: 14px;
+    font-size: 13px;
+    color: #ffffff;
+    padding-top: 16px;
+    background-color: #b35967;
+    height: 47px;
+  }
+
+  .upperheadTxT{
+    padding-bottom: 4px;
+  }
+
+  .selected_items {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .selectID{
+    padding-bottom: 3px;
+    margin: 0 24px;
+    color: #ffffff;
+    border-color: #b35967;
+    background: transparent;
+  }
+
+  .upperhead_nav{
+    font-size: 13px;
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 0 15px;
+  }
+
+  .link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 15px;
+    color: #ffffff;
+    text-decoration: none;
+
+    transition: color 0.3s linear;
+  }
+
+  .link:hover{
+    color: #ffffff;
+  }
+
+  .Rovnyalka{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Rovnyalka1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+ .container {
+   width: 100%;
+   max-width: 1200px;
+   margin: 0 auto;
+ }
+
+  .header{
+    padding-top: 59px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #656565;
+  }
+  .header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #fff;/*-BELIY FON content BOXA*/
+    box-shadow: 0 10px 25px rgba(72, 72, 72, .1);/*4OTKA TEN U BOXA Z KONTENTOM*/
+  }
+  .header_logo{
+    font-size: 36px;
+    font-weight: 700;
+
+    color: #656565;
+    text-transform: uppercase;
+
+  }
+
+  .nav{
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 60px;
+  }
+  .nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 24px;
+    color: #656565;
+    text-decoration: none;
+
+    transition: color 0.3s linear;
+  }
+  .nav__link:hover{
+    color: #b35967;
+  }
+  .header__inner input, .header__inner button {
+  outline: none;
+  background: transparent;
+  }
+  .header__inner input {
+  border: 1px solid;
+  border-color: #c6c6c6;
+  padding-left: 15px;
+  vertical-align: top;
+  width: 176px;
+  height: 30px;
+
+  }
+  .header__inner button {
+  border: none;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  }
+  .header__inner button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #000;
+  }
+  .header__inner button:hover{
+    content: "\f002";
+    font-family: FontAwesome;
+    font-size: 16px;
+    color: #4cb1ca;
+  }
+
+  .slideshow-container {
+    padding-top: 45px;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+  }
+
+  .mySlides {
+      display: none;
+  }
+
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    margin-top: -22px;
+    padding: 26px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+
+
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  .slideshow-container1 {
+    padding-top: 45px;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+  }
+
+
+  .mySlides1 {
+      display: none;
+  }
+
+
+
+  .prev1, .next1 {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    margin-top: -22px;
+    padding: 26px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+
+
+  .next1 {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+
+  .prev1:hover, .next1:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  .dot1 {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active1, .dot1:hover {
+    background-color: #717171;
+  }
+
+
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  .Raspisaniya{
+    padding-left: 40px;
+  }
+  .AboutAA{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+
+    background-color: #fff;/*-BELIY FON content BOXA*/
+    box-shadow: 10px 10px 25px rgba(72, 72, 72, .1);/*4OTKA TEN U BOXA Z KONTENTOM*/
+  }
+  .foot{
+    padding-bottom: 2px;
+    font-size: 13px;
+    color: #f2f2f2;
+    padding-top: 2px;
+    background-color: #b35967;
+  }
+  .prava{
+    text-align: center;
+  }
+  .Images{
+    background-color: #fff;/*-BELIY FON content BOXA*/
+    box-shadow: 10px 5px 25px rgba(72, 72, 72, .3);/*4OTKA TEN U BOXA Z KONTENTOM*/
+  }
+  .image{
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #fff;/*-BELIY FON content BOXA*/
+    box-shadow: 25px 0 25px rgba(72, 72, 72, .1);/*4OTKA TEN U BOXA Z KONTENTOM*/
+  }
